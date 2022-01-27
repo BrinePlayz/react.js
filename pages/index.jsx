@@ -1,7 +1,4 @@
-let React, { useEffect } = require('react')
-
-function index() {
-    let [count, setCount] = useEffect(0)
+module.exports = function() {
     return (
         <html lang="en">
         <head>
@@ -11,10 +8,8 @@ function index() {
             <title>React.js Starter</title>
         </head>
         <body>
-            <button onClick={() => setCount(count + 1)}>This Button Is Clicked {count} Times</button>
+            <h1>{new Date()}</h1>
         </body>
         </html>
     )
-};
-
-module.exports = index
+}
