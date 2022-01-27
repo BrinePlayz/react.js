@@ -1,5 +1,4 @@
-global.React = require('react');
-const app = require('express')()
+require('express')()
 .set('view engine', 'jsx')
 .set('views', __dirname + '/pages')
 .engine('jsx', require('express-react-views').createEngine())
