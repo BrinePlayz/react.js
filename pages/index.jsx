@@ -1,5 +1,5 @@
 module.exports = function() {
-    const [count, setCount] = require('React').useEffect(0)
+    const [count, setCount] = useEffect(0)
     return (
         <html lang="en">
         <head>
