@@ -1,3 +1,4 @@
+global.React = require('react');
 const app = require('express')()
 .set('view engine', 'jsx')
 .set('views', __dirname + '/pages')
