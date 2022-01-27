@@ -11,7 +11,7 @@ module.exports = function() {
             <title>React.js Starter</title>
         </head>
         <body>
-            <button onClick={setCount(count + 1)}>This Button Is Clicked {count} Times</button>
+            <button onClick={() => setCount(count + 1)}>This Button Is Clicked {count} Times</button>
         </body>
         </html>
     )
