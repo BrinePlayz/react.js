@@ -1,7 +1,7 @@
-module.exports = function() {
-    function getNewDate() {
-        return new Date().toLocaleString()
-    }
+let React, { useState } = require('react')
+
+module.exports = function () {
+    let [count, setCount] = useState(0)
     return (
         <html lang="en">
         <head>
@@ -11,8 +11,8 @@ module.exports = function() {
             <title>React.js Starter</title>
         </head>
         <body>
-            <h1>{getNewDate()}</h1>
+            <button onClick={() => setCount(count + 1)}>This Button Is Clicked {count} Times</button>
         </body>
         </html>
     )
-}
+};
