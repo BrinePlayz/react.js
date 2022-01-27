@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+let React, { useEffect } = require('react')
 
 module.exports = function() {
     let [count, setCount] = useEffect(0)
