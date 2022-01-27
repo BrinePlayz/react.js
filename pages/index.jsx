@@ -1,4 +1,4 @@
-const { useState } = require('react')
+const React, { useState } = require('react')
 
 module.exports = function () {
     let [count, setCount] = useState(0)
