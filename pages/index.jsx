@@ -1,6 +1,6 @@
 let React, { useEffect } = require('react')
 
-module.exports = function() {
+function index() {
     let [count, setCount] = useEffect(0)
     return (
         <html lang="en">
@@ -16,3 +16,5 @@ module.exports = function() {
         </html>
     )
 };
+
+module.exports = index
