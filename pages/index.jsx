@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 
 function index() {
-    let [count, setCount] = useState(0)
+    const [count, setCount] = useState(0);
     return (
-        <button onClick={() => setCount(count + 1)}>This Button Is Clicked {count} Times</button>
+        <button onClick={() => setCount(count + 1)}>{count}</button>
     )
 };
 
