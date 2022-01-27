@@ -1,4 +1,7 @@
 module.exports = function() {
+    function getNewDate() {
+        return new Date().toLocaleString()
+    }
     return (
         <html lang="en">
         <head>
@@ -8,7 +11,7 @@ module.exports = function() {
             <title>React.js Starter</title>
         </head>
         <body>
-            <h1>{new Date()}</h1>
+            <h1>{getNewDate()}</h1>
         </body>
         </html>
     )
