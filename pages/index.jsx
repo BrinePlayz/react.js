@@ -1,4 +1,4 @@
-const React,{ useEffect } = require('react')
+import React, { useEffect } from 'react'
 
 module.exports = function() {
     let [count, setCount] = useEffect(0)
