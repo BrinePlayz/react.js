@@ -5,4 +5,4 @@ require('express')()
 .get('/', (req, res) => res.render('index', {
     user: { username: 'Brine' }
 }))
-.listen(8000), null, () => console.log('[Connected]'))
+.listen(8000, null, () => console.log('[Connected]'))
