@@ -1,9 +1,10 @@
-global.React = require('react')
 require('express')()
 .set('view engine', 'jsx')
 .set('views', __dirname + '/pages')
 .engine('jsx', require('express-react-views').createEngine())
-.get('/', (req, res) => {
-    res.render('index')
-})
+.get('/', (req, res) => res.render('index', {
+    user: {
+        username: 'Brine'
+    }
+}))
 .listen(8001, null, () => console.log('[Connected]'))
