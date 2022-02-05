@@ -1,5 +1,21 @@
 const React = require('react');
-const NavItem = require('../comps/navbarItem.jsx')
+const NavItem = ({spanClassList, text, aHref}) => {
+    if(!spanClassList) return (
+        <li class="nav-item">
+            <a class="nav-link link text-black text-primary display-4" href={aHref} target="_blank">
+                {text}
+            </a>
+        </li>
+    )
+    return (
+        <li class="nav-item">
+            <a class="nav-link link text-black text-primary display-4" href={aHref} target="_blank">
+                <span class={spanClassList}></span>
+                {text}
+            </a>
+        </li>
+    )
+}
 module.exports = ({ user }) => {
     let log = {
         URL: '/login',
