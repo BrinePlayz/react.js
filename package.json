@@ -1,26 +1,25 @@
 {
-  "name": "react.js",
-  "version": "1.0.0",
-  "description": "Gettin Started With React.js",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.2",
-    "express-react-views": "^0.11.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BrinePlayz/react.js.git"
-  },
-  "author": "Brine",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BrinePlayz/react.js/issues"
-  },
-  "homepage": "https://github.com/BrinePlayz/react.js#readme"
-}
+    "name": "react.js",
+    "version": "1.0.0",
+    "description": "Gettin Started With React.js",
+    "main": "index.js",
+    "dependencies": {
+      "express-react-views": "^0.11.0",
+      "react-dom": "^17.0.2",
+      "react": "^17.0.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/BrinePlayz/react.js.git"
+    },
+    "author": "Brine",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/BrinePlayz/react.js/issues"
+    },
+    "homepage": "https://github.com/BrinePlayz/react.js#readme"
+  }

@@ -1,13 +1,6 @@
-import React, { useState } from 'react'
+const { useState } = require('react')
 
-function index() {
-    const [count, setCount] = useState(0);
-    return (
-        <div>
-            <p>You clicked {count} times</p>
-            <button onClick={() => setCount(count + 1)}>Click me</button>
-        </div>
-    )
+module.exports = function () {
+    let [count, setCount] = useState(0)
+    return <button onClick={() => setCount(count + 1)}>This Button Is Clicked {count} Times</button>
 };
-
-module.exports = index
